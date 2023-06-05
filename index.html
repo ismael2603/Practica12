@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <title>Pratica 7</title>
+    <link rel="stylesheet" href="css/problemaStem.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script src="js/calcularStem.js"></script>
+</head>
+<body>
+  <section class="wrapper">
+    <header>
+      <h1 class="logo">Ochoa Zamorano Ismael</a></h1>
+      
+    </header>
+    <section id="contenedor">
+      <section  class="problema">
+        <h2>Problema "Velocidad de giro de una estrella de neutrones" </h2>
+        <p>Descripción:</p>
+        <p>Si una estrella de neutrones tiene un radio de 20 km<br>
+          Si a dicha estrella le lleva 4.3 segundos en
+          completar una vuelta <br>
+          ¿cuál es la velocidad lineal y la aceleración centrıpeta de ésta? <br>
+        </p>
+      </section>
+      <section  class="esquemaProblema">
+        <h2>Esquema</h2>
+        <center>
+        <img class="imgProblema" src="images/estrella.jpg">
+        </center>
+      </section>
+      <section class="formulas">
+        <h2>Fórmulas</h2>
+        <p>v=2piRadio/T<br>
+            a=4pi^2Radio/T^2<br> </p>
+      </section>
+      <section class="datos">
+        <h2>Datos:</h2>
+          Radio=20 km <br>
+          Tiempo=4.3 s
+      </section>
+      <section class="calculos">
+        <h2>Calculo</h2>
+        <p>¿cuál es la velocidad lineal y la aceleración centrıpeta de la estrella?<br>
+          v=2pi*(20*10^3)/4.3 <br>
+          a=4pi^2*(20*10^3)/(4.3)^2<br>
+        <button onclick="calcula_densidad();">Presiona para calcular</button>
+      </section>
+      <section class="resultado">
+        <h2>Resultado:</h2>
+        <div id="resultadoA"></div>
+      </section>
+    </section>
+    <footer class="pie">
+     Creative Commons versión 3.0 SciSoft 2021
+    </footer>
+  </section>
+</body>
+</html>
